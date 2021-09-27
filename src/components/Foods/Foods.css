@@ -1,0 +1,37 @@
+.foods-container{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.item-container{
+    padding-right: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 2px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cart-container{
+    box-shadow: 0 10px 20px gray;
+    margin: 20px;
+    padding-left: 5px;
+}
+
+.search-area{
+    background-color: forestgreen;
+    text-align: center;
+    padding: 20px;
+}
+
+.search-area input{
+    width: 50%;
+    height: 35px;
+    text-indent: 5px;
+    font-size: 18px;
+    border: 2px solid #ff7f09;
+    border-radius: 10px;
+    outline: none;
+}
